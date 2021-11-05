@@ -1,0 +1,379 @@
+/* .bp{
+background-color: blue;
+height: 20px;
+width: 50%;
+}
+.bp1{
+    background-color:yellow;
+    height: 20px;
+    } */
+    #wrapper{
+        display: flex;
+        max-width: auto;
+    }
+        body {
+            -ms-overflow-style: scrollbar;
+            overflow-y: scroll;
+            overscroll-behavior-y: none;
+    }
+    .list-group{
+        margin-left: 50px;
+        width: 300px;
+    }
+    .g1{
+        border: 0px;
+        font-size: large;
+    }
+    .g1:hover{
+        background-color: lightgray;
+        transition: 1.5s;
+        border-radius: 999px;
+        color: black;
+    }
+    .bi{
+        padding-right: 1rem;
+        font-size: 30px;
+    }
+    .btn{
+        border: 0px;
+        font-size: large;
+        width: 180px;
+        border-radius: 999px;
+        margin-top: 10px;
+    }
+    .g3{
+        border: 0px;
+        font-size: large;
+        width: 250px;
+    }
+    .li{
+        margin-left: 50px; 
+        font-size: 2rem;
+        padding-left: 20px;
+        padding-bottom: 15px;
+        border-radius: 999px;
+    }
+    .li:hover{
+        background-color: lightgoldenrodyellow;
+        border: 1px lightsalmon;
+        transition: 1s;
+    }
+    .pi{
+        border-radius: 9990px;
+        height: 60px;
+        margin-left: 5px;
+        padding-top: 15px;
+    }
+    p{
+        margin-left: 50px;
+        font-size: 15px;
+    }
+    .d1{
+        margin-left: 20px;
+        margin-bottom: 20px;
+    }
+    p{
+        margin-top: -40px;
+        margin-left: 75px;
+    }
+    .list-group span{
+        margin-top: 60px;
+        cursor: pointer;
+    }
+    o{
+        margin-left: 20px;
+    }
+    .list-group span:hover{
+        background-color: lightgrey;
+        transition: 1s;
+        border-radius: 999px;
+    }
+    #container-fluid{
+        display: flex;
+        border: 0 solid black;
+        box-sizing: border-box;
+        display: flex;
+    }
+    .right-row{
+        width: auto;
+        margin-right: 100px;
+        background-color:salmon ;
+    }
+    #sidebar-wrapper{
+        width: auto;
+    }
+    .bh{
+        background-color: white;
+        color: black;
+        display: flex;
+        align-items: center;
+        justify-content:space-between;
+        width: 500px;
+        border-radius: 0px;
+    }
+    #content-menu{
+        width: 100%;
+        border-right: 1px solid #080808;
+        background: white;
+    }
+    .prefer{
+        width:100%;
+        height: 55px;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: center;
+        border-bottom: 1px solid black;
+        position: sticky;
+        top: 0;
+        background: white;
+        z-index: 1000;
+    }
+    .prefer span a{
+        text-decoration: none;
+        color: black;
+        font-weight: 800;
+        font-size: 18px;
+    }
+    .prefer span i{
+        font-size: 18px;
+        color: #00a7ff;
+    }
+    .you-tweet-other-tweet{
+        max-height: 704px;
+    }
+    .you-tweet-other-tweet:hover{
+        overflow-y: auto;
+    }
+    .you-tweet{
+        display: block;
+        width:100%;
+        border-bottom: 10px solid #e8e8e8;
+        height: 130px;
+    }
+    .profile-message{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        padding: 10px 15px;
+    }
+    .profile-message img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        cursor: pointer;
+        opacity: 0.9;
+    }
+    .profile-message img:hover{
+        opacity: 1;
+    }
+    .profile-message span input{
+        padding:0 0 010px;
+        font-size: 18px;
+        color: blanchedalmond;
+        letter-spacing: 0.5px;
+        border:none;
+        outline: none;
+    }
+    .add-extra{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+    .images-more{
+        margin: 5px 0 5px 7px;
+    }
+    .images-more span a{
+        text-decoration: none;
+        color: #00a7ff;
+        font-size:20px;
+        padding:8px 8px;
+        border-radius: 50%;
+    }
+    .images-more span a:hover{
+        background-color: #e1f5ff;
+    }
+    .add-extra span button{
+        margin:0 30px 0 0;
+        padding:10px 25px;
+        border-radius: 30px;
+        border:none;
+        background:#00a7ff;
+        font-size:16px;
+        color:white;
+        font-weight: 700;
+    }
+    .add-extra span button:hover{
+        background: #0093ff;
+    }
+    .other-tweets {
+        width:100%;
+    }
+    .other-tweet{
+        width: 100%;
+        border-bottom: 1px solid #e8e8e8;
+    }
+    .profile-msg{
+        display: grif;
+        grid-template-columns: 12% 76% 12%;
+        margin:20px 0 10px 0;
+        align-items: center;
+    }
+    .others-profile{
+        padding:0 0 0 10px;
+    }
+    .others-profile img{
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        opacity: 0.9;
+        cursor: pointer;
+    }
+    .others-profile img:hover{
+        opacity: 1;
+    }
+    .name-msg span i{
+        padding: 0 4px 0 4px;
+        color:#00a7ff;
+        font-size: 20px;
+    }
+    .name-msg{
+        cursor:pointer;
+    }
+    .name-msg span b{
+        color:black;
+    }
+    .msg{
+        color: black;
+        font-size: 16px;
+        font-weight: 500;
+        padding:5px 0 0 0;
+        text-align: inter-word;
+        word-wrap: break-word;
+    }
+    .name-msg span b:hover{
+        text-decoration: underline;
+    }
+    .msg p{
+        margin-top: 5px;
+        margin-left: 10px;
+    }
+    .image-video{
+        margin:0 0 0 12%;
+    }
+    .image-video img{
+        border-radius: 20px;
+        width: 98%;
+        max-width: 280px;
+    }
+    .your-reaction{
+        margin:3% 0 5% 15%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        width: 70%;
+        opacity: 0.7;
+    }
+    .your-reaction div{
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+    .your-reaction div p{
+        padding:0 0 0 5px;
+        font-size: 12px;
+    }
+    .your-reaction div i{
+        font-size: 20px;
+        padding:5px 5px;
+        border-radius: 50%;
+    }
+    .comment:hover{
+        color:#00a7ff;
+    }
+    .retweet:hover{
+        color: green;
+    }
+    .like:hover{
+        color:red;
+    }
+    .bookmark:hover{
+        color: #00a7ff;
+    }
+    .trending-menu{
+        width: 100%;
+    }
+    .trending-center{
+        width:100%;
+        margin:0 0 0 50px;
+    }
+    .search{
+        width: 100%;
+        height: 55px;
+        position: sticky;
+        top:0;
+        background: white;
+        align-items: center;
+        z-index: 1000;
+    }
+    .search input{
+        width: 100%;
+        height: 40px;
+        margin: 1% 0 0 0;
+        border-radius: 30px;
+        outline: none;
+        border: none;
+        background: white;
+        padding:0 10px 0 50px;
+        font-size:15px;
+        color: black;
+        letter-spacing: 1px;
+    }
+    .search span{
+        position: absolute;
+        left:7%;
+        top: 12px;
+        font-size: 20px;
+        font-weight: 100;
+        color:#454545;
+    
+    }
+    .trending, .follow{
+        width: 100%;
+        background: #efefef;
+        border-radius: 20px;
+        margin:0 0 20px 0;
+        overflow-y: hidden;
+        max-height: 333px;
+    }
+    .trending:hover, .follow:hover{
+        overflow-y: auto;
+    }
+    .header p{
+        padding:1px solid #d8d8d8;
+        font-size:18px;
+        font-weight: 900;
+    }
+    .trends, .persons{
+        width:100%;
+    }
+    .trend{
+        display: grid;
+        grid-template-columns: 70% 30%;
+        border-bottom:1px solid #d4d4d4;
+    }
+    .trend-msg{
+        margin:15px 0 0 20px;
+    }
+    .trend-name{
+        margin:0 0 10px 0;
+        cursor:pointer;
+    }
+    .trend-name p,.trend-with p{
+        font-size:12px;
+        opacity:0.6;
+    }
+    .trend-with{
+        margin:0 0 20px 0;
+        cursor:pointer;
+    }
